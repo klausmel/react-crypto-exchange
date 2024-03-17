@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-ui-components/static/js/main.31240cac.js",
-    "index.html": "/react-ui-components/index.html",
-    "main.31240cac.js.map": "/react-ui-components/static/js/main.31240cac.js.map"
+    "main.js": "/react-crypto-exchange/static/js/main.31240cac.js",
+    "index.html": "/react-crypto-exchange/index.html",
+    "main.31240cac.js.map": "/react-crypto-exchange/static/js/main.31240cac.js.map"
   },
   "entrypoints": [
     "static/js/main.31240cac.js"
