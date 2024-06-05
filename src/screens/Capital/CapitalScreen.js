@@ -112,7 +112,7 @@ const CapitalScreen = () => {
 
   return (
     <SiteLayout>
-      <Header icon='sort' title='Piyasa' />
+      <Header icon='sort' title='Market' />
       <TopBar
         searchValue={keyword}
         searchOnChange={handleSearchValue}
@@ -123,12 +123,12 @@ const CapitalScreen = () => {
         <table className='data-table'>
           <thead>
             <tr>
-              <th className='left'>Sıra</th>
+              <th className='left'>Queue</th>
               <th className='left'>Coin</th>
-              <th className='center'>Son fiyat</th>
-              <th className='center'>Değişim (24s)</th>
-              <th className='center responsive-hide2'>Hacim (24s)</th>
-              <th className='left responsive-hide'>Grafik</th>
+              <th className='center'>Final Price</th>
+              <th className='center'>Change (24s)</th>
+              <th className='center responsive-hide2'>Volume (24s)</th>
+              <th className='left responsive-hide'>Graphic</th>
               <th aria-label='empty' className='right'>
                 &nbsp;
               </th>

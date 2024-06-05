@@ -21,7 +21,7 @@ const HeaderRight = memo(() => {
               to='/data'
               className={location.pathname.toLowerCase().includes('/data') ? 'active' : 'passive'}
             >
-              Veri
+              Data
             </Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ const HeaderRight = memo(() => {
               to='/docs'
               className={location.pathname.toLowerCase().includes('/docs') ? 'active' : 'passive'}
             >
-              Doküman
+              Documentation
             </Link>
           </li>
           <li>
@@ -54,7 +54,7 @@ const HeaderRight = memo(() => {
             </Link>
           </li>
         </ul>
-        <ul className='header-user nowrap'>
+        {/* <ul className='header-user nowrap'>
           <li>
             <Link to='/members'>
               <span>Cenk SARI</span>
@@ -76,7 +76,7 @@ const HeaderRight = memo(() => {
               <i className='material-icons'>power_settings_new</i>
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

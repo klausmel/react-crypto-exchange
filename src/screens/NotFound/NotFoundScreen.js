@@ -8,10 +8,10 @@ const NotFoundScreen = () => (
       draggable='false'
       className='logo-404'
     />
-    <h1 className='title-404'>404</h1>
-    <p className='paragraph-404'>Crypto Exchange sunucusunda böyle bir sayfa bulunamadı.</p>
+    <h1 className='title-404'>442</h1>
+    <p className='paragraph-404'>Site under construction. Please be pacient</p>
     <Link to='/' className='button button-purple button-medium'>
-      Ana sayfaya git
+      Welcome Page 
     </Link>
   </div>
 );

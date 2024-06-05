@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const StatusName = memo(({ status }) => {
   if (status === 1) {
-    return <span className='green'>Limit uygun</span>;
+    return <span className='green'>Limit Appropriate</span>;
   }
 
-  return <span className='red'>Bakiye yetersiz</span>;
+  return <span className='red'>Insufficient funds</span>;
 });
 
 StatusName.propTypes = {

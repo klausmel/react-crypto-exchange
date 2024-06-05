@@ -28,7 +28,7 @@ const MarketScreen = () => {
       financialRate: '-0.0252%/hr',
       icon: 'https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/256/Bitcoin-BTC-icon.png',
       amount: '18.783,33',
-      description: `Bitcoin, Satoshi Nakamoto adını kullanmış bilinmeyen bir kişi veya grup tarafından 2008'de icat edilmiş bir kriptoparadır. 2009'da bir açık kaynak kodlu yazılım olarak piyasaya`,
+      description: `Bitcoin was invented in 2008 by an unknown person or group using the name Satoshi Nakamoto...`,
     };
 
     setCoinInfo(coinData);
@@ -47,7 +47,7 @@ const MarketScreen = () => {
   return (
     <MainLayout>
       <div className='content'>
-        <Header title='Market' />
+        <Header title='< Group 2 >' />
         <div className='flex flex-destroy'>
           <div className='content-30 box-right-padding'>
             <Market />

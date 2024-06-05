@@ -20,7 +20,7 @@ const BuySell = memo(() => {
     <Box>
       <div className='box-title box-vertical-padding box-horizontal-padding no-select'>
         <div className='flex flex-center flex-space-between'>
-          <p>Al-sat</p>
+          <p>Buy and Sell</p>
         </div>
       </div>
       <div className='box-horizontal-padding box-content-height-nobutton'>
@@ -30,14 +30,14 @@ const BuySell = memo(() => {
             className={primaryTab === 0 ? 'active' : 'passive'}
             onClick={() => handlePrimaryTab(0)}
           >
-            AL
+            BUY
           </button>
           <button
             type='button'
             className={primaryTab === 1 ? 'active' : 'passive'}
             onClick={() => handlePrimaryTab(1)}
           >
-            SAT
+            SELL
           </button>
         </div>
 
@@ -93,7 +93,7 @@ const BuySell = memo(() => {
                 </div>
                 <div className='box-button box-vertical-padding'>
                   <button type='button' className='button button-green button-medium button-block'>
-                    Alış emri ver
+                    Time to Buy
                   </button>
                 </div>
               </>
@@ -133,7 +133,7 @@ const BuySell = memo(() => {
                 </div>
                 <div className='box-button box-vertical-padding'>
                   <button type='button' className='button button-green button-medium button-block'>
-                    Alış emri ver
+                    Time to Buy
                   </button>
                 </div>
               </>

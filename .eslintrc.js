@@ -28,7 +28,7 @@ module.exports = {
     'no-use-before-define': 'error',
     'newline-before-return': 'error',
     'linebreak-style': 'off',
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': 'off',
     'jsx-quotes': ['error', 'prefer-single'],

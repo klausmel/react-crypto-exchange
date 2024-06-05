@@ -90,7 +90,7 @@ const TradeHistory = memo(() => {
   return (
     <Box>
       <div className='box-title box-vertical-padding box-horizontal-padding no-select'>
-        Piyasa geçmişi
+        Market history
       </div>
       <div className='box-content box-content-height'>
         <div className='trade-history-row'>
@@ -98,10 +98,10 @@ const TradeHistory = memo(() => {
             <table>
               <thead>
                 <tr>
-                  <th className='left no-select'>Fiyat</th>
-                  <th className='center no-select'>Hacim</th>
-                  <th className='center no-select'>İşlem</th>
-                  <th className='right no-select'>Zaman</th>
+                  <th className='left no-select'>Price</th>
+                  <th className='center no-select'>Volume</th>
+                  <th className='center no-select'>Operation</th>
+                  <th className='right no-select'>Time</th>
                 </tr>
               </thead>
               <tbody>
@@ -115,7 +115,7 @@ const TradeHistory = memo(() => {
       </div>
       <div className='box-button box-vertical-padding box-horizontal-padding'>
         <Link to='/market' className='button button-purple button-medium button-block'>
-          Daha fazla
+          More
           <i className='material-icons button-icon-right'>chevron_right</i>
         </Link>
       </div>

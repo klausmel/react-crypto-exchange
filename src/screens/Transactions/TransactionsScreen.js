@@ -81,13 +81,13 @@ const TransactionsScreen = () => {
               <th aria-label='empty' className='left'>
                 &nbsp;
               </th>
-              <th className='left responsive-hide'>İşlem</th>
+              <th className='left responsive-hide'>Operation</th>
               <th className='left responsive-hide'>Tarih</th>
               <th className='left'>Kimden</th>
               <th className='left'>Kime</th>
               <th className='left'>Coin</th>
               <th className='center'>Miktar</th>
-              <th className='center'>Durum</th>
+              <th className='center'>Status</th>
             </tr>
           </thead>
           <tbody>

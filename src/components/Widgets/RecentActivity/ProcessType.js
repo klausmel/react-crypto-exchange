@@ -8,7 +8,7 @@ const ProcessType = memo(({ type }) => {
         <div className='icon green'>
           <i className='material-icons'>arrow_upward</i>
         </div>
-        <strong>Yükleme</strong>
+        <strong>Upload</strong>
       </div>
     );
   }
@@ -18,7 +18,7 @@ const ProcessType = memo(({ type }) => {
       <div className='icon red'>
         <i className='material-icons'>arrow_downward</i>
       </div>
-      <strong>Çekme</strong>
+      <strong>Pulling</strong>
     </div>
   );
 });

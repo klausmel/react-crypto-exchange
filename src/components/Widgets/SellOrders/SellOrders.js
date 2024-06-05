@@ -94,7 +94,7 @@ const SellOrders = memo(() => {
     <Box>
       <div className='box-title box-vertical-padding box-horizontal-padding no-select'>
         <div className='flex flex-center flex-space-between'>
-          <p>Satış emirleri</p>
+          <p>Sell orders</p>
           <button type='button' className='box-icon pointer' onClick={() => handleMenuOpen()}>
             <i className='material-icons'>more_vert</i>
           </button>
@@ -131,9 +131,9 @@ const SellOrders = memo(() => {
             <table>
               <thead>
                 <tr>
-                  <th className='left no-select'>Fiyat</th>
-                  <th className='center no-select'>Tutar</th>
-                  <th className='right no-select'>Toplam</th>
+                  <th className='left no-select'>Price</th>
+                  <th className='center no-select'>Amount</th>
+                  <th className='right no-select'>Overall</th>
                 </tr>
               </thead>
               <tbody>

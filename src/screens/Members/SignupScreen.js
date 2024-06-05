@@ -246,7 +246,7 @@ const SignupScreen = () => {
                     <div className='form-line'>
                       <div className='center'>
                         <p>
-                          Hesabınız var mı? <Link to='/'>giriş yapın</Link>.
+                        Do you have an account? <Link to='/'>Log in</Link>.
                         </p>
                       </div>
                     </div>

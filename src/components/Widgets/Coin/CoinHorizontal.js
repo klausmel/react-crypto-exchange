@@ -16,7 +16,7 @@ const CoinHorizontal = memo(({ item, searchValue, searchOnChange, searchSubmit }
         </div>
         <div className='divider' />
         <div>
-          <label className='gray'>Değer fiyatı</label>
+          <label className='gray'>Price</label>
           <strong>
             {item.amount} {item.currency}
             <em className='red'>{item.change}</em>
@@ -24,12 +24,12 @@ const CoinHorizontal = memo(({ item, searchValue, searchOnChange, searchSubmit }
         </div>
         <div className='divider responsive-hide2' />
         <div className='responsive-hide2'>
-          <label className='gray'>Finansman oranı</label>
+          <label className='gray'>Finantial Ratio</label>
           <strong>{item.financialRate}</strong>
         </div>
         <div className='divider responsive-hide2' />
         <div className='responsive-hide2'>
-          <label className='gray'>Hacim</label>
+          <label className='gray'>Volume</label>
           <strong>{item.weight}</strong>
         </div>
         <div className='divider responsive-hide' />
@@ -39,7 +39,7 @@ const CoinHorizontal = memo(({ item, searchValue, searchOnChange, searchSubmit }
               type='text'
               name='keyword'
               id='keyword'
-              placeholder='Arama'
+              placeholder='Search'
               autoComplete='off'
               onChange={searchOnChange}
               value={searchValue}

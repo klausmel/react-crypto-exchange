@@ -58,16 +58,16 @@ const Limits = memo(() => {
       <div className='box-title box-vertical-padding box-horizontal-padding no-select'>
         <div className='flex flex-center flex-space-between'>
           <div>
-            <p>Limitler</p>
+            <p>Limits</p>
           </div>
           <ul>
             <li>
               <button type='button' className='active'>
-                Yatırma
+                Deposit
               </button>
             </li>
             <li>
-              <button type='button'>Çekme</button>
+              <button type='button'>Pulling</button>
             </li>
           </ul>
         </div>
@@ -82,7 +82,7 @@ const Limits = memo(() => {
             <span className='gray'>30g limit</span>
           </div>
           <div className='center'>
-            <span className='gray'>Durum</span>
+            <span className='gray'>Status</span>
           </div>
         </div>
 

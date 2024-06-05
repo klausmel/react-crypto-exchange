@@ -59,7 +59,7 @@ const ForgotScreen = () => {
                     </div>
                     <div className='form-line'>
                       <div className='full-width right'>
-                        <Link to='/'>Giriş yap</Link>
+                        <Link to='/'>Log in</Link>
                       </div>
                     </div>
                     <div className='form-line'>
@@ -70,7 +70,7 @@ const ForgotScreen = () => {
                     <div className='form-line'>
                       <div className='center'>
                         <p>
-                          Hesabınız yoksa <Link to='/members/signup'>yeni hesap</Link> oluşturun.
+                        If you do not have an account <Link to='/members/signup'>new account</Link> Create.
                         </p>
                       </div>
                     </div>
